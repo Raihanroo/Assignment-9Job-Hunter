@@ -1,0 +1,26 @@
+[
+    {
+      "id" : 1,
+      "logo" : "https://img.freepik.com/free-vector/gradient-accounting-logo-template_23-2148863565.jpg",
+      "category_name" : "Account & Finance",
+      "availability" : "300 Jobs Available"
+    },
+    {
+      "id" : 2,
+      "logo" : "https://img.freepik.com/premium-vector/abstract-bulb-logo-design-colorful-3d-style-icons_345408-623.jpg",
+      "category_name" : "Creative Design",
+      "availability" : "100+ Jobs Available"
+    },
+    {
+      "id" : 3,
+      "logo" : "https://www.shutterstock.com/image-vector/icon-logo-illustration-financial-marketing-260nw-715171117.jpg",
+      "category_name" : "Marketing & Sales",
+      "availability" : "150 Jobs Available"
+    },
+    {
+      "id" : 4,
+      "logo" : "https://img.freepik.com/free-vector/mechanical-engineering-logo-design_23-2150045645.jpg",
+      "category_name" : "Engineering Job",
+      "availability" : "224 Jobs Available"
+    }
+  ]
