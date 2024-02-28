@@ -50,9 +50,9 @@ const Footer = () => {
             <div className="md:ml-10 text-center md:text-left py-2 md:py-0">
               <h4 className="text-xl font-bold text-fuchsia-700"><i>Contact</i></h4>
               <p className="md:text-sm text-state-300 md:mt-2">C-12,Sonagang, Dhaka</p>
-              <p className="md:text-sm text-state-300 md:mt-2">+88.1521107013</p>
-              <p className="md:text-sm text-state-300 md:mt-2">WWW.Job Hunter.com</p>
-              <p className="md:text-sm text-state-300 md:mt-2">findjob@gmail.com</p>
+              <p className="md:text-sm text-state-300 md:mt-2">+88015221107013</p>
+              <p className="md:text-sm text-state-300 md:mt-2">WWW.Job-Hunter.com</p>
+              <p className="md:text-sm text-state-300 md:mt-2">raihanroo@gmail.com</p>
             </div>
             
 
