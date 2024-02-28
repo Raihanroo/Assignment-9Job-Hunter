@@ -61,13 +61,13 @@ const Rechart = () => {
   return (
     <div className="w-full container mx-auto my-5">
       <div className="text-center mb-5">
-      <h2>Rechart View</h2>
-      <p>This is Rechart showing Data</p>
+      <h2 className='text-[2.5rem] font-medium text-fuchsia-950'>Rechart View</h2>
+      <p className='text-[1.1rem] font-medium text-fuchsia-950'>This is Rechart showing Data</p>
       </div>
     <div className="flex justify-center">
         <div className="">
         <ComposedChart
-          width={1500}
+          width={1200}
           height={800}
           data={data}
           margin={{
