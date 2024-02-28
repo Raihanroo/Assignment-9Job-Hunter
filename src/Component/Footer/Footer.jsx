@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="bg-gray-200">
       {/* footer section start */}
       <div className="container mx-auto py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 px-2">
           {/* item one start */}
           <div className="text-center md:text-left py-2 md:gap-0 ">
             <h4 className="text-xl font-bold text-fuchsia-700">
@@ -78,6 +78,25 @@ const Footer = () => {
 
           
      
+        </div>
+        <div className="px-3 my-3">
+        <hr className=" border-x-2 w-full border-black"/>
+        </div>
+
+        <div className="px-2">
+        <div className="sm:flex sm:justify-between text-center">
+        <div>
+          <span className=" font-semibold text-sm md:text-base text-state-300">
+            <i>@2024 Job-Hunter.All Rights Reserved</i>
+          </span>
+        </div>
+
+        <div>
+          <span className=" font-semibold text-sm md:text-base text-state-300">
+            <i>Powe By Job-Hunter</i>
+          </span>
+        </div>
+      </div>
         </div>
       </div>
     </div>
