@@ -1,8 +1,9 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import { ToastContainer } from 'react-toastify';
+import Esample from '../Test/Esample';
 
 const Root = () => {
     return (
@@ -14,7 +15,8 @@ const Root = () => {
             <Outlet/>
             {/* outlate main section  end */}
             {/* Footer section stared */}
-            <Footer></Footer>
+            <Esample></Esample>
+            {/* <Footer></Footer> */}
             <ToastContainer/>
             {/* Footer section end */}
         </div>

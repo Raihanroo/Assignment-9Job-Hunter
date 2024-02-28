@@ -19,7 +19,7 @@ const Home = () => {
                 navigation.state === 'loading' ? <Loading></Loading> : ''
             }
         
-         <Banner  heading={"One Step"} subHeading={"Closer To Your"} img={homeimg}></Banner> 
+         <Banner  heading={<p className='text-[5rem]  font-medium text-fuchsia-950'>One Step</p>} subHeading={<p className='text-[2.5rem] font-medium text-fuchsia-950'>Closer To Your</p>} img={homeimg}></Banner> 
          
            <Category></Category>
            <Featured></Featured>
