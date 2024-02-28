@@ -1,8 +1,8 @@
-# React + Vite
+* ### This is my Job-Hunter Milstone-9 Assignment.
+* ### i try to create Job-Hunter webpage by using create routing .
+* ### try to make footerpart and feturepart by following figma file whis is explan in Assignmet vedio.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* ###  I use 4 types in router link home,applied jobs, statistics and blog.
+* ###  this project are local host data in public file.
+* ### link in this project
+* ### githublink: (https://github.com/Raihanroo/Assignment-9Job-Hunter)
