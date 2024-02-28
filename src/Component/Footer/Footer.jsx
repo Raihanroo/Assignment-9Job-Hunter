@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="bg-gray-200">
       {/* footer section start */}
-      <div className="md:container md:mx-auto py-10">
+      <div className="container mx-auto py-10">
         <div className="grid grid-cols-5 gap-4">
           {/* item one start */}
           <div className="text-center md:text-left py-2 md:gap-0 ">
@@ -14,14 +14,17 @@ const Footer = () => {
               <i>Job-Hunter</i>
             </h4>
             <p className="md:text-sm text-state-300 my-2">There are many variations of passages<br />of Lorem Ipsum,some form.</p>
-            <div className="">
+            <div className="flex gap-2">
             <FaFacebookSquare className="h-7 w-7 text-blue-700 hover:text-blue-300 duration-50"/>
             <FaSquareWhatsapp  className="h-7 w-7 text-green-700 hover:text-green-300 duration-50"/>
             <MdLocationPin  className="h-7 w-7 text-fuchsia-700 hover:text-fuchsia-300 duration-50"/>
             <IoLogoLinkedin  className="h-7 w-7 text-blue-700 hover:text-blue-300 duration-50"/>
             </div>
+            </div>
             {/* item one end */}
-            {/* item two start */}
+
+          {/* Ìtem two start */}
+
             <div className=''>
               <h4 className='text-xl font-bold text-fuchsia-700'><i>Company</i></h4>
               <p className='md:text-sm text-state-300 md:mt-2'>About Us</p>
@@ -29,7 +32,11 @@ const Footer = () => {
               <p className='md:text-sm text-state-300 md:mt-2'>Latest News</p>
               <p className='md:text-sm text-state-300 md:mt-2'>Careers</p>
             </div>
-            
+
+            {/* Ìtem two end */}
+
+            {/* item three start */}
+
             <div className="">
               <h4 className="text-xl font-bold text-fuchsia-700"><i>Product</i></h4>
               <p className="md:text-sm text-state-300 md:mt-2">Prototype</p>
@@ -37,14 +44,22 @@ const Footer = () => {
               <p className="md:text-sm text-state-300 md:mt-2">Customers</p>
               <p className="md:text-sm text-state-300 md:mt-2">Integrations</p>
             </div>
-         
-              <div className="">
+
+            {/* item three end */}
+
+            {/* item foure start */}
+
+            <div className="">
               <h4 className="text-xl font-bold text-fuchsia-700"><i>Support</i></h4>
               <p className="md:text-sm text-state-300 md:mt-2">Help Desk</p>
               <p className="md:text-sm text-state-300 md:mt-2">Sels</p>
               <p className="md:text-sm text-state-300 md:mt-2">Become a Partner</p>
               <p className="md:text-sm text-state-300 md:mt-2">Developers</p>
             </div>
+
+            {/* item foure end */}
+
+            {/* item five start */}
             
             <div className="">
               <h4 className="text-xl font-bold text-fuchsia-700"><i>Contact</i></h4>
@@ -53,27 +68,16 @@ const Footer = () => {
               <p className="md:text-sm text-state-300 md:mt-2">WWW.Job-Hunter.com</p>
               <p className="md:text-sm text-state-300 md:mt-2">raihanroo@gmail.com</p>
             </div>
-            
 
-          </div>
-          
-          <hr  className="text-state-300 md:my-8 my-4"/>
-
-          
-
-         <div className="md:flex md:justify-between text-center">
-          <div>
-            <span className=" font-semibold text-base text-state-300"><i>@2024 Job-Hunter.All Rights Reserved</i></span>
-          </div>
+            {/* item five end */}
+           
 
 
-          <div>
-            <span className=" font-semibold text-base text-state-300"><i>Powe By Job-Hunter</i></span>
-          </div>
 
           
-         </div>
+
           
+     
         </div>
       </div>
     </div>
