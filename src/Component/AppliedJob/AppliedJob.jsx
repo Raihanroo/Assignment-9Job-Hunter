@@ -53,8 +53,8 @@ const AppliedJob = () => {
     <div>
       {navigation.state === "loading" ? <Loading></Loading> : ""}
       <Banner
-        heading={"My Liked"}
-        subHeading={"Fevorate Job"}
+        heading={<p className="text-[5rem] font-medium text-fuchsia-950">I Liked</p>}
+        subHeading={<p className="text-[2.5rem] font-medium text-fuchsia-950">My-Fevorite Job In</p>}
         img={AppliedJobimg}
       ></Banner>
       <div className="container mx-auto mb-10">

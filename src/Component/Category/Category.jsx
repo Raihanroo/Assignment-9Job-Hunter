@@ -15,7 +15,7 @@ const Category = () => {
       <div className="container mx-auto">
         <div className="text-center">
             <h3 className="text-4xl font-medium text-fuchsia-950">Job Category List</h3>
-            <p className="text-[2.5rem] font-medium text-fuchsia-950">Explore thousands of job opportunities with all the information you need. Its your future</p>
+            <p className="text-[1rem] font-medium text-fuchsia-950 p-2">Explore thousands of job opportunities with all the information you need. Its your future</p>
         </div>
         <div className="grid grid-cols-1 md:my-5 my-2 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {

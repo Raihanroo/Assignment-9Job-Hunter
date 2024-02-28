@@ -18,8 +18,8 @@ const Featured = () => {
     <div>
       <div className="container mx-auto">
         <div className="text-center">
-          <h3 className="text-4xl font-semibold">Featured Jobs</h3>
-          <p className="text-lg font-semibold">
+          <h3 className="text-4xl font-medium text-fuchsia-950">Featured Jobs</h3>
+          <p className="text-[1rem] font-medium text-fuchsia-950">
             Explore thousands of job opportunities with all the information you
             need. Its your future
           </p>
