@@ -28,8 +28,8 @@ const navigation = useNavigation();
                 navigation.state === 'loading' ? <Loading></Loading> : ''
             }
        <Banner
-        heading={"Job Details"}
-        subHeading={"for The IOT Company Globaly!!"}
+        heading={<p className="text-fuchsia-700 font-extrabold text-2xl">Job-Details</p>}
+        subHeading={<p className="text-fuchsia-700 font-extrabold text-2xl">for The IOT Company Globaly!!</p>}
         img={DetailsImg}
       ></Banner>
       <div>
