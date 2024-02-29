@@ -6,4 +6,4 @@
 - ### this project are local host data in public file.
 - ### link in this project
 - ### githublink: (https://github.com/Raihanroo/Assignment-9Job-Hunter)
-- ### NetlifyLink: (https://assignment-9job-hunter.netlify.app/)
+- ### NetlifyLink: (https://job-hunterassignmet-9.netlify.app/)
